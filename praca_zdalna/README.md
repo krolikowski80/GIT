@@ -1,7 +1,7 @@
 # PRACA ZDALNA
 
 ## Klonowanie repo
-> git clone /path/to/repo.git /gdzie/  . oznacza TUTAJ a brak podania miejsca teorzy katalog jak nazwa zdalnego
+> git clone /path/to/repo.git /gdzie/  . oznacza TUTAJ a brak podania miejsca tworzy katalog jak nazwa zdalnego
 
 Jeżeli repo zostało sklonowane to jest faktycznie ustawione tak, jak powinno być
 Rozkodujmy "refs/..."
@@ -23,7 +23,7 @@ Więcwj info o powiązaniu branch z reo zdalnym
 Comit bez zmian w kodzie
 > git commit --allow-empty -m "ping remote"
 
-## tworzenie repo zdalnego czyli Bare. Jest ono puste i służ tylko do wymiany plików.
+## Tworzenie repo zdalnego czyli Bare. Jest ono puste i służ tylko do wymiany plików.
 > mkdir server_repo.git
 > cd server_repo.git
 > git init --bare
