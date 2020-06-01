@@ -23,7 +23,7 @@ Więcwj info o powiązaniu branch z reo zdalnym
 Comit bez zmian w kodzie
 > git commit --allow-empty -m "ping remote"
 
-## Tworzenie repo zdalnego czyli Bare. Jest ono puste i służ tylko do wymiany plików.
+## Tworzenie repo zdalnego czyli Bare. Jest ono puste i służy tylko do wymiany plików.
 > mkdir server_repo.git
 > cd server_repo.git
 > git init --bare
